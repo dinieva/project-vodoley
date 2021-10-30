@@ -819,7 +819,6 @@ footer {
   }
   .content .slide {
     width: 100vw;
-    height: 100vh;
   }
   .content .dots-wrapper {
     margin-top: 10px;
@@ -854,6 +853,50 @@ footer {
   .footer__call {
     font-size: 13px;
     font-weight: 300;
+  }
+}
+
+@media (max-width: 360px) {
+  .content {
+    max-width: 350px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .content .info-header-tab {
+    font-size: 13px;
+    padding-right: 5px;
+    text-align: center;
+  }
+  .content .info-tabcontent.description-title {
+    font-size: 11px;
+  }
+  .content .info {
+    padding: 5px;
+  }
+  .content .info-tabcontent .description-text {
+    font-size: 10px;
+    margin-top: 15px;
+  }
+  .photo img {
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
+  .content .info-tabcontent .description-btn {
+    display: none;
+  }
+  .content .slide img {
+    max-width: 360px;
+  }
+  .content .prev {
+    height: 99%;
+  }
+  .content .next {
+    height: 99%;
+    right: -10px;
+  }
+  .content .slider-title {
+    font-size: 18px;
   }
 }
 /*# sourceMappingURL=style.min.css.map */
