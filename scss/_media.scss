@@ -232,9 +232,9 @@
         font-weight: 300;
     }
 }
-@media (max-width:360px) {
+@media (min-width:360px) {
     .content {
-        max-width: 350px;
+        max-width: 360px;
     }
     h2 {
         font-size: 18px;    
