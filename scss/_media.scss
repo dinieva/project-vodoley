@@ -232,7 +232,7 @@
         font-weight: 300;
     }
 }
-@media (min-width:360px) {
+@media (mфч-width:393px) {
     .content {
         max-width: 360px;
     }
@@ -262,14 +262,14 @@
 
     }
     .content .slide img {
-        max-width: 360px;
+        max-width: 393px;
     }
     .content .prev {
         height: 99%;
     }
     .content .next {
         height: 99%;
-        right: -10px;
+        right: -30px;
     }
     .content .slider-title {
         font-size: 18px;
